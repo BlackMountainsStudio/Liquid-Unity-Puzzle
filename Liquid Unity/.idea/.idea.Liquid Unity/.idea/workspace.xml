@@ -10,9 +10,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.splines@2.5.2/Shader/Spline.cginc" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2cxSIffDG0NgfepDrYzBUgWS8eW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,6 +23,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "node.js.detected.package.eslint": "true",
@@ -64,10 +68,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2220">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="2220" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -84,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709051660841</updated>
       <workItem from="1709051662936" duration="2971000" />
+      <workItem from="1709152565071" duration="8791000" />
     </task>
     <servers />
   </component>
@@ -92,7 +97,76 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Rope/RopeController.cs</url>
+          <line>64</line>
+          <properties documentPath="M:\Unity\Projects\Liquid-Unity-Puzzle\Liquid Unity\Assets\Scripts\Rope\RopeController.cs" initialLine="55" containingFunctionPresentation="Method 'OnCollisionStay'">
+            <startOffsets>
+              <option value="2678" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2703" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Rope/RopeController.cs</url>
+          <line>77</line>
+          <properties documentPath="M:\Unity\Projects\Liquid-Unity-Puzzle\Liquid Unity\Assets\Scripts\Rope\RopeController.cs" initialLine="69" containingFunctionPresentation="Method 'MoveRopeSegment'">
+            <startOffsets>
+              <option value="3261" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3298" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Rope/RopeController.cs</url>
+          <line>74</line>
+          <properties documentPath="M:\Unity\Projects\Liquid-Unity-Puzzle\Liquid Unity\Assets\Scripts\Rope\RopeController.cs" initialLine="66" containingFunctionPresentation="Method 'MoveRopeSegment'">
+            <startOffsets>
+              <option value="3076" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3122" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Rope/RopeController.cs</url>
+          <line>75</line>
+          <properties documentPath="M:\Unity\Projects\Liquid-Unity-Puzzle\Liquid Unity\Assets\Scripts\Rope\RopeController.cs" initialLine="67" containingFunctionPresentation="Method 'MoveRopeSegment'">
+            <startOffsets>
+              <option value="3131" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3179" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
